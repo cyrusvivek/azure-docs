@@ -598,7 +598,7 @@ Use the following content for the input file. You need to adapt the content to y
             {
                 "actions": [
                     "Microsoft.Compute/*/read",
-                    "Microsoft.Compute/virtualMachines/powerOff/action",
+                    "Microsoft.Compute/virtualMachines/deallocate/action",
                     "Microsoft.Compute/virtualMachines/start/action"
                 ],
                 "notActions": [],
